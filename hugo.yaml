@@ -1,0 +1,57 @@
+baseURL: "https://aaroncofer25.github.io/blog/"
+languageCode: en-us
+title: Aaron Cofer
+theme: PaperMod
+
+pagination:
+  pagerSize: 10
+
+enableRobotsTXT: true
+buildDrafts: false
+
+params:
+  author: Aaron Cofer
+  description: "Notes on aerospace software, orbital mechanics, and systems engineering."
+
+  defaultTheme: auto
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+
+  homeInfoParams:
+    Title: "Hi, I'm Aaron"
+    Content: >
+      Software engineer working on autonomous space systems.
+      I write about orbital mechanics, simulation, and the software that ties it together.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/aaroncofer25"
+
+  assets:
+    disableHLJS: true
+
+markup:
+  highlight:
+    style: monokai
+    lineNos: false
+    codeFences: true
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20

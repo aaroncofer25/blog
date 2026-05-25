@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://aaroncofer25.github.io/blog/sitemap.xml
