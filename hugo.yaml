@@ -11,7 +11,7 @@ buildDrafts: false
 
 params:
   author: Aaron Cofer
-  description: "Notes on aerospace software, orbital mechanics, and systems engineering."
+  description: "Notes on cryptography, math, and systems engineering."
 
   defaultTheme: auto
 
@@ -26,8 +26,8 @@ params:
   homeInfoParams:
     Title: "Hi, I'm Aaron"
     Content: >
-      Software engineer working on autonomous space systems.
-      I write about orbital mechanics, simulation, and the software that ties it together.
+      I do cryptography related engineering. 
+      
 
   socialIcons:
     - name: github
